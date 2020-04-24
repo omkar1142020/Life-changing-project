@@ -1,0 +1,30 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 80px;
+}
+.parallax {
+		  /* The image used */
+		  background-image: url("../img/background.jpg");
+
+		  /* Set a specific height */
+		  min-height: 650px; 
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
